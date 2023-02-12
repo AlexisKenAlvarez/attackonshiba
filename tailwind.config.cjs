@@ -16,7 +16,8 @@ module.exports = {
                 'button': '#402622',
                 'cardname': '#4A4024',
                 'buttonHover': '#341814',
-                'cardtext': '#9B6913'
+                'cardtext': '#9B6913',
+                'tokenbg': '#E7BB70'
             },
             boxShadow: {
                 upper: '0px 2px 18px 15px rgba(64,38,34,1)'
