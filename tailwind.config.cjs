@@ -9,7 +9,8 @@ module.exports = {
             fontFamily: {
                 'rye': ['Rye'],
                 'bree': ['Bree Serif'],
-                'noto': ['Noto Sans']
+                'noto': ['Noto Sans'],
+                'aot': ['AotFont']
             },
             colors: {
                 'main': '#F0E4B4',

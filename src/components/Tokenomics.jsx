@@ -9,7 +9,7 @@ const Tokenomics = () => {
             <div className='max-w-[1700px] px-10 flex relative z-10 lg:flex-row flex-col gap-y-6'>
                 <div className='w-full flex items-center justify-center'>
                     <div className='lg:w-[22rem] w-[18rem] text-center lg:ml-20'>
-                        <h1 className='font-bree text-main lg:text-6xl text-5xl font-bold'>Tokenomics</h1>
+                        <h1 className='font-aot text-main lg:text-6xl text-5xl'>Tokenomics</h1>
                         <div className='font-bree text-main lg:text-6xl text-5xl mt-7 flex justify-between'>
                             <div>
                                 <h2>5%</h2>

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { AnimatePresence, motion, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 
 const Hero = () => {
     const animation = useAnimation()
@@ -48,7 +48,7 @@ const Hero = () => {
                         <img src="/aotlogo.webp" alt="logo" className='w-16'></img>
                         <h1 className='font-noto'>柴犬の攻撃</h1>
                     </motion.div>
-                    <motion.h1 initial={{opacity: 0, y: -100}} animate={{opacity: 100, y: 0}} transition={{delay: 0.8, duration: 2, type: "spring", stiffness: 200}} className='font-bree font-medium'>ATTACK ON SHIBA</motion.h1>
+                    <motion.h1 initial={{opacity: 0, y: -100}} animate={{opacity: 100, y: 0}} transition={{delay: 0.8, duration: 2, type: "spring", stiffness: 200}} className='font-aot font-medium'>Attack On Shiba</motion.h1>
                 </div>
 
             </div>

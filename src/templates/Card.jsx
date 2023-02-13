@@ -7,7 +7,7 @@ const Card = ({title, subheader, number, message}) => {
                 <p className='font-bree text-xl tracking-wider'>{title}</p>
             </div>
             <div className='w-full h-auto p-8 pb-16 bg-paper bg-cover mt-[-0.6rem] bg-bottom'>
-                <div className='text-cardtext font-rye w-full justify-between items-center flex lg:text-3xl text-xl'>
+                <div className='text-cardtext font-aot w-full justify-between items-center flex lg:text-3xl text-xl'>
                     <p className='uppercase'>{subheader}</p>
                     <p>{number}</p>
                 </div>
