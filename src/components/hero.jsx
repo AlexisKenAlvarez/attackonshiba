@@ -48,7 +48,7 @@ const Hero = () => {
                         <img src="/aotlogo.webp" alt="logo" className='w-16'></img>
                         <h1 className='font-noto'>柴犬の攻撃</h1>
                     </motion.div>
-                    <motion.h1 initial={{opacity: 0, y: -100}} animate={{opacity: 100, y: 0}} transition={{delay: 0.8, duration: 2, type: "spring", stiffness: 200}} className='font-aot font-medium'>Attack On Shiba</motion.h1>
+                    <motion.h1 initial={{ opacity: 0, y: -100 }} animate={{ opacity: 100, y: 0 }} transition={{ delay: 0.8, duration: 2, type: "spring", stiffness: 200 }} className='font-aot font-medium'>Attack On Shiba</motion.h1>
                 </div>
 
             </div>
@@ -56,11 +56,11 @@ const Hero = () => {
                 <div className='w-fit h-[65%] bg-cover font-noto text-main sm:px-14 pt-14 xl:pt-16 flex absolute mx-auto left-0 right-0 sm:left-auto sm:right-auto bottom-0'>
                     <div className='max-w-[1580px] w-full mx-auto'>
                         <div className=' w-full mx-auto z-10 relative'>
-                            <motion.p initial={{opacity: 0}} animate={{opacity: 100}} transition={{duration: 1, delay: 0.9}} className='md:max-w-[550px] xl:text-lg md:text-sm text-xs max-w-[290px] leading-4 text-center sm:text-left mx-auto'>
+                            <motion.p initial={{ opacity: 0 }} animate={{ opacity: 100 }} transition={{ duration: 1, delay: 0.9 }} className='md:max-w-[550px] xl:text-lg md:text-sm text-xs max-w-[290px] leading-4 text-center sm:text-left mx-auto'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </motion.p>
 
-                            <motion.div initial={{opacity: 0, y: 100}} animate={{opacity: 100, y:0}} transition={{delay: 1, duration: 2, ease: [.21, 1.03, .27, 1]}} className='mt-9 flex gap-x-3 gap-y-3 text-xs md:text-md xl:text-lg'>
+                            <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 100, y: 0 }} transition={{ delay: 1, duration: 2, ease: [.21, 1.03, .27, 1] }} className='mt-9 flex gap-x-3 gap-y-3 text-xs md:text-md xl:text-lg'>
                                 <div className='w-fit h-auto px-10 py-3 bg-button cursor-pointer hover:bg-buttonHover transition-all ease-in-out duration-300'>
                                     <p>Buy token</p>
                                 </div>
@@ -78,7 +78,7 @@ const Hero = () => {
             </div>
 
 
-            <motion.img animate={animation} src="/heronew.webp" alt="Hero" className='absolute lg:bottom-16 lg:right-16 sm:bottom-10 sm:right-10 bottom-4 right-0 left-0 sm:left-auto mx-auto z-0 lg:w-[70vh] sm:w-[25rem] w-[10rem] pointer-events-none'>
+            <motion.img animate={animation} src="/heronew.webp" alt="Hero" className='absolute lg:bottom-16 lg:right-16 sm:bottom-10 sm:right-10 sm:top-auto top-[20vh] right-[-13rem] left-0 sm:left-auto mx-auto z-0 lg:w-[70vh] sm:w-[25rem] w-[10rem] pointer-events-none'>
 
             </motion.img>
         </section>
