@@ -10,7 +10,8 @@ module.exports = {
                 'rye': ['Rye'],
                 'bree': ['Bree Serif'],
                 'noto': ['Noto Sans'],
-                'aot': ['AotFont']
+                'aot': ['AotFont'],
+                'pop': ['Poppins']
             },
             colors: {
                 'main': '#F0E4B4',
@@ -23,7 +24,7 @@ module.exports = {
                 'neworange': '#C4B05E',
                 'line': '#625318',
                 'bottombg': '#523531',
-                
+
             },
             boxShadow: {
                 upper: '0px 2px 18px 15px rgba(64,38,34,1)',

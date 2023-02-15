@@ -16,7 +16,7 @@ const Card = ({ title, subheader, number, message }) => {
                     <p className='uppercase'>{subheader}</p>
                     <p>{number}</p>
                 </div>
-                <p className='text-button font-noto text-justify indent-7 mt-6 text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p className='text-button font-pop text-justify indent-7 mt-6 text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
         </motion.div>
     )

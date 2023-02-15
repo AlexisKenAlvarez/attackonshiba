@@ -49,7 +49,7 @@ const History = () => {
                 <div className='w-full flex items-center justify-center flex-col gap-y-10'>
                     <motion.h1 initial={{opacity: 0}} animate={ titleView ? {opacity: 100} : {}} transition={{duration: 0.5}} className='font-aot lg:text-6xl text-4xl w-[15rem] text-center lg:leading-[4rem] leading-[3rem]' ref={titleRef}>In a City Surrounded By titans</motion.h1>
 
-                    <motion.div initial={{opacity: 0}} animate={ secView ? {opacity: 100} : {}} transition={{duration: 0.5}} className='font-noto flex flex-col gap-y-10 max-w-[30rem] lg:max-w-[18rem] xl:max-w-[24rem] text-justify font-medium lg:text-lg text-sm text-white' ref={secRef}>
+                    <motion.div initial={{opacity: 0}} animate={ secView ? {opacity: 100} : {}} transition={{duration: 0.5}} className='font-pop flex flex-col gap-y-10 max-w-[30rem] lg:max-w-[18rem] xl:max-w-[24rem] text-justify lg:text-lg text-sm text-white' ref={secRef}>
                         <p className='indent-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 

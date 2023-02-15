@@ -12,7 +12,7 @@ const Phase = ({ text }) => {
                 <h1 className='font-rye text-center absolute top-0 left-0 right-0 mx-auto text-button text-3xl uppercase'>
                     {text}
                 </h1>
-                <p className='text-button text-center'>
+                <p className='text-button text-center font-pop'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 </p>
             </div>
